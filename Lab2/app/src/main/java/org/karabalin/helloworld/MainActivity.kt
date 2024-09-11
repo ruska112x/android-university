@@ -10,7 +10,8 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var mHelloTextView: TextView
+    private lateinit var textViewHello: TextView
+    private lateinit var textViewNiceDay: TextView
     private lateinit var editText: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,13 +20,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         // my code start
         editText = findViewById(R.id.textField)
-        mHelloTextView = findViewById(R.id.textView)
+        textViewHello = findViewById(R.id.textViewHello)
+        textViewNiceDay = findViewById(R.id.textViewNiceDay)
         val imageButton = findViewById<ImageButton>(R.id.kittyButton)
         imageButton.setOnClickListener {
             if (editText.text.isEmpty()) {
-                mHelloTextView.text = "Hello, Kitty!"
+                textViewHello.text = getString(R.string.helloWorld)
             } else {
-                mHelloTextView.text = "Hello, " + editText.text
+                textViewHello.text = String.format("${getString(R.string.hello)} ${editText.text}!")
+                textViewNiceDay.text = getString(R.string.haveANiceDay)
             }
         }
         // my code end

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lab2</string>
+    <string name="hello">Hello,</string>
+    <string name="helloWorld">Hello, World!</string>
+    <string name="haveANiceDay">Have a nice day!</string>
+    <string name="changeTextButton">Button change text</string>
+    <string name="editTextHint">Cat Name</string>
 </resources>
