@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="whiteText">White</string>
+    <string name="redText">Red</string>
+    <string name="yellowText">Yellow</string>
+    <string name="greenText">Green</string>
+</resources>
