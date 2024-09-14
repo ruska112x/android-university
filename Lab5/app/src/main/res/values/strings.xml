@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="catDescription">Cat</string>
+    <string name="meow">Meow</string>
+    <string name="meowMeow">Meow, meow!</string>
+    <string name="meowMeowMeow">Meow, meow, meeeow!!!</string>
+</resources>
