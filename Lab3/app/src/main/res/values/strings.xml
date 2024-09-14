@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="emptyString" />
+    <string name="hello">Hello!</string>
+    <string name="helloButtonText">Greet</string>
+    <string name="countCrowsButton">Count Crows</string>
+    <string name="countCatsButton">Count Cats</string>
+    <string name="helloText">Hello There!</string>
+    <string name="countCrowsText">I counted %d crows</string>
+    <string name="countCatsText">I counted %d cats</string>
+</resources>
