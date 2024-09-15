@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="aboutText">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id malesuada dolor.
+        Suspendisse potenti. Morbi quis interdum elit.
+        Pellentesque vehicula, libero quis imperdiet faucibus, neque lorem consectetur ante, sit amet molestie tellus nulla ut mi.
+        Curabitur suscipit nisi quis tortor consequat scelerisque.
+        Donec ut est vehicula, malesuada libero in, mollis tellus.
+        Praesent vel scelerisque felis. Etiam malesuada urna in tortor efficitur ornare.\n\n
+        Maecenas eu aliquet mauris. Quisque vitae lacus sit amet urna sagittis rutrum.
+        Ut bibendum, purus nec facilisis vestibulum, ex risus tempor mauris, vel fringilla nibh arcu ut lacus.
+        Morbi erat ante, vulputate a facilisis fringilla, tincidunt vel tortor. Integer nec mi erat.
+        Nullam vel viverra elit. Nulla malesuada tincidunt tempor.
+        Cras dapibus felis eu libero feugiat mattis. Sed vulputate volutpat metus, sit amet tempus diam egestas quis.
+        Aliquam eleifend feugiat sodales. Mauris non interdum nibh.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+        Phasellus eget felis tincidunt, porttitor lorem nec, porttitor urna. Maecenas ut aliquet ligula.\n\n
+        </string>
+    <string name="toAboutButtonText">
+        Go to About
+    </string>
+    <string name="toPostActivityButtonText">To PostActivity</string>
+    <string name="postHint">Enter text</string>
+    <string name="passTextToMainActivity">Pass text to main activity</string>
+</resources>
