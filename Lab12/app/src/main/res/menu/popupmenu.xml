@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menugroup1">
+        <item
+            android:id="@+id/menu1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="White and Cyan">
+            <menu>
+                <item
+                    android:id="@+id/light1"
+                    android:title="White" />
+                <item
+                    android:id="@+id/light2"
+                    android:title="Cyan" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@+id/menugroup2">
+        <item
+            android:id="@+id/menu2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Red and Green">
+            <menu>
+                <item
+                    android:id="@+id/dark1"
+                    android:title="Red" />
+                <item
+                    android:id="@+id/dark2"
+                    android:title="Green" />
+            </menu>
+        </item>
+    </group>
+</menu>
