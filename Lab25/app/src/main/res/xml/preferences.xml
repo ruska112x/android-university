@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="notifications"
+        android:title="Включить уведомления"
+        android:summary="Включите или отключите уведомления"
+        android:defaultValue="true" />
+
+    <EditTextPreference
+        android:key="username"
+        android:title="Имя пользователя"
+        android:summary="Введите ваше имя"
+        android:dialogTitle="Имя пользователя"
+        android:defaultValue="User" />
+
+    <ListPreference
+        android:key="sync_frequency"
+        android:title="Частота синхронизации"
+        android:summary="Выберите частоту синхронизации данных"
+        android:entries="@array/pref_sync_frequency_titles"
+        android:entryValues="@array/pref_sync_frequency_values"
+        android:defaultValue="1" />
+
+</PreferenceScreen>

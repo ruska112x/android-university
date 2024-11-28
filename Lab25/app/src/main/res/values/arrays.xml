@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_sync_frequency_titles">
+        <item>Каждый час</item>
+        <item>Каждые 3 часа</item>
+        <item>Каждый день</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>1</item>
+        <item>3</item>
+        <item>24</item>
+    </string-array>
+</resources>
