@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab28</string>
+    <string name="button_send">Send Broadcast</string>
+    <string name="text_view_status">Broadcast not received</string>
+</resources>
