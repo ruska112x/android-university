@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab31</string>
+    <string name="welcome_message">Welcome to Basic Activity!</string>
+    <string name="button_update">Update Message</string>
+    <string name="updated_message">Message Updated Successfully!</string>
+    <string name="button_snackbar">Show Snackbar</string>
+</resources>
