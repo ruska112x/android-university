@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab32</string>
+    <string name="button_show_dialog">Show Alert Dialog</string>
+    <string name="dialog_title">Sample Alert Dialog</string>
+    <string name="dialog_message">Do you want to proceed?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+    <string name="dialog_neutral">Cancel</string>
+    <string name="toast_positive">Yes button clicked</string>
+    <string name="toast_negative">No button clicked</string>
+    <string name="toast_neutral">Cancel button clicked</string>
+</resources>
